@@ -1,0 +1,1 @@
+# envelop-shopify-proxy-cache
