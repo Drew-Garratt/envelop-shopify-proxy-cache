@@ -1,0 +1,32 @@
+{
+  "name": "@envelop-examples/simple-http",
+  "private": true,
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Dotan Simha",
+  "license": "MIT",
+  "dependencies": {
+    "@envelop/core": "*",
+    "@envelop/response-cache": "^0.2.1",
+    "@envelop/response-cache-redis": "^0.1.0",
+    "@graphql-tools/load": "^7.3.2",
+    "@graphql-tools/schema": "8.0.1",
+    "@graphql-tools/url-loader": "^7.2.0",
+    "cross-env": "^7.0.3",
+    "dotenv": "^10.0.0",
+    "fastify": "^3.22.1",
+    "fastify-http-proxy": "^6.2.1",
+    "graphql": "^15.6.1",
+    "graphql-helix": "^1.8.3",
+    "ioredis": "^4.28.0"
+  },
+  "devDependencies": {
+    "@types/node": "15.6.1",
+    "ts-node": "10.0.0",
+    "typescript": "4.3.5"
+  },
+  "scripts": {
+    "start": "ts-node index.ts",
+    "dev": "NODE_ENV=development ts-node index.ts"
+  }
+}
